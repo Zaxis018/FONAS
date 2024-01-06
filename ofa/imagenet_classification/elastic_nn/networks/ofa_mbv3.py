@@ -33,7 +33,6 @@ class OFAMobileNetV3(MobileNetV3):
         expand_ratio_list=6,
         depth_list=4,
     ):
-
         self.width_mult = width_mult
         self.ks_list = val2list(ks_list, 1)
         self.expand_ratio_list = val2list(expand_ratio_list, 1)
@@ -46,7 +45,8 @@ class OFAMobileNetV3(MobileNetV3):
         base_stage_width = [16, 16, 24, 40, 80, 112, 160, 960, 1280]
 
         final_expand_width = make_divisible(
-            base_stage_width[-2] * self.width_mult, MyNetwork.CHANNEL_DIVISIBLE  #make channel number divisible by 9
+            base_stage_width[-2] * self.width_mult,
+            MyNetwork.CHANNEL_DIVISIBLE,  # make channel number divisible by 9
         )
         last_channel = make_divisible(
             base_stage_width[-1] * self.width_mult, MyNetwork.CHANNEL_DIVISIBLE
@@ -65,7 +65,7 @@ class OFAMobileNetV3(MobileNetV3):
 
         input_channel, first_block_dim = width_list[0], width_list[1]
         # first conv layer
-        
+
         first_conv = ConvLayer(
             3, input_channel, kernel_size=3, stride=2, act_func="h_swish"
         )
@@ -123,7 +123,6 @@ class OFAMobileNetV3(MobileNetV3):
                     shortcut = None
                 blocks.append(ResidualBlock(mobile_inverted_conv, shortcut))
                 feature_dim = output_channel
-
 
         # final expand layer, feature mix layer & classifier
         final_expand_layer = ConvLayer(
@@ -241,9 +240,11 @@ class OFAMobileNetV3(MobileNetV3):
     """ set, sample and get active sub-networks """
 
     def set_max_net(self):
-        self.set_active_subnet(
+        cfg = self.set_active_subnet(
             ks=max(self.ks_list), e=max(self.expand_ratio_list), d=max(self.depth_list)
         )
+
+        return cfg 
 
     def set_active_subnet(self, ks, e, d, **kwargs):
         ks = val2list(ks, len(self.blocks) - 1)
@@ -259,6 +260,8 @@ class OFAMobileNetV3(MobileNetV3):
         for i, d in enumerate(depth):
             if d is not None:
                 self.runtime_depth[i] = min(len(self.block_group_info[i]), d)
+
+        return {"ks": ks, "e": expand_ratio, "d": depth}
 
     def set_constraint(self, include_list, constraint_type="depth"):
         if constraint_type == "depth":
