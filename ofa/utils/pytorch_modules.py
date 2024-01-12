@@ -8,13 +8,13 @@ import torch.nn.functional as F
 from collections import OrderedDict
 from .my_modules import MyNetwork
 
+
+
 __all__ = [
     "make_divisible",
     "build_activation",
     "ShuffleLayer",
     "MyGlobalAvgPool2d",
-    "Hswish",
-    "Hsigmoid",
     "SEModule",
     "MultiHeadCrossEntropyLoss",
 ]
@@ -50,9 +50,9 @@ def build_activation(act_func, inplace=True):
     elif act_func == "sigmoid":
         return nn.Sigmoid()
     elif act_func == "h_swish":
-        return Hswish(inplace=inplace)
+        return nn.Hardswish(inplace=True)
     elif act_func == "h_sigmoid":
-        return Hsigmoid(inplace=inplace)
+        return nn.Hardsigmoid(inplace=True)
     elif act_func is None or act_func == "none":
         return None
     else:
@@ -90,28 +90,8 @@ class MyGlobalAvgPool2d(nn.Module):
         return "MyGlobalAvgPool2d(keep_dim=%s)" % self.keep_dim
 
 
-class Hswish(nn.Module):
-    def __init__(self, inplace=True):
-        super(Hswish, self).__init__()
-        self.inplace = inplace
-
-    def forward(self, x):
-        return x * F.relu6(x + 3.0, inplace=self.inplace) / 6.0
-
-    def __repr__(self):
-        return "Hswish()"
 
 
-class Hsigmoid(nn.Module):
-    def __init__(self, inplace=True):
-        super(Hsigmoid, self).__init__()
-        self.inplace = inplace
-
-    def forward(self, x):
-        return F.relu6(x + 3.0, inplace=self.inplace) / 6.0
-
-    def __repr__(self):
-        return "Hsigmoid()"
 
 
 class SEModule(nn.Module):
@@ -133,7 +113,7 @@ class SEModule(nn.Module):
                     ("reduce", nn.Conv2d(self.channel, num_mid, 1, 1, 0, bias=True)),
                     ("relu", nn.ReLU(inplace=True)),
                     ("expand", nn.Conv2d(num_mid, self.channel, 1, 1, 0, bias=True)),
-                    ("h_sigmoid", Hsigmoid(inplace=True)),
+                    ("h_sigmoid", nn.Hardsigmoid(inplace=True)),
                 ]
             )
         )
