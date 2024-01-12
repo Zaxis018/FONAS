@@ -242,7 +242,7 @@ class EvolutionFinder:
 
             if acc > best_valids[-1]:
                 best_valids.append(acc)
-                best_info = parents[0]
+                best_info = (parents[0][0], parents[0][1], 1/parents[0][1])
             else:
                 best_valids.append(best_valids[-1])
 
