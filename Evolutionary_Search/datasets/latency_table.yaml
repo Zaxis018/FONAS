@@ -1,0 +1,1116 @@
+-
+    'Kernel Name': ResidualBlock-in_96x14x14-out_136-k_7-e_3-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.708
+    'Average Time (ms)': 0.719
+    'Maximum Time (ms)': 0.868
+    Workload(GOP): 0.032
+    'DPU Performance(GOP': {s): 10.596}
+    'Mem IO(MB)': 0.162
+    'Mem Bandwidth(MB': {s): 244.496}
+
+-
+    'Kernel Name': ResidualBlock-in_96x14x14-out_96-k_5-e_3-s_1-act_h_swish-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.477
+    'Average Time (ms)': 0.488
+    'Maximum Time (ms)': 0.816
+    Workload(GOP): 0.025
+    'DPU Performance(GOP': {s): 12.615}
+    'Mem IO(MB)': 0.114
+    'Mem Bandwidth(MB': {s): 266.378}
+
+-
+    'Kernel Name': ResidualBlock-in_48x28x28-out_48-k_3-e_3-s_1-act_relu-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.354
+    'Average Time (ms)': 0.365
+    'Maximum Time (ms)': 0.876
+    Workload(GOP): 0.024
+    'DPU Performance(GOP': {s): 17.225}
+    'Mem IO(MB)': 0.134
+    'Mem Bandwidth(MB': {s): 437.257}
+
+-
+    'Kernel Name': ResidualBlock-in_96x14x14-out_96-k_5-e_6-s_1-act_h_swish-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.919
+    'Average Time (ms)': 0.928
+    'Maximum Time (ms)': 1.069
+    Workload(GOP): 0.05
+    'DPU Performance(GOP': {s): 12.4}
+    'Mem IO(MB)': 0.174
+    'Mem Bandwidth(MB': {s): 200.18}
+
+-
+    'Kernel Name': ResidualBlock-in_136x14x14-out_192-k_5-e_6-s_2-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.32
+    'Average Time (ms)': 1.326
+    'Maximum Time (ms)': 1.42
+    Workload(GOP): 0.062
+    'DPU Performance(GOP': {s): 10.628}
+    'Mem IO(MB)': 1.04
+    'Mem Bandwidth(MB': {s): 818.669}
+
+-
+    'Kernel Name': ResidualBlock-in_96x14x14-out_136-k_5-e_6-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.296
+    'Average Time (ms)': 1.307
+    'Maximum Time (ms)': 1.832
+    Workload(GOP): 0.059
+    'DPU Performance(GOP': {s): 10.314}
+    'Mem IO(MB)': 0.346
+    'Mem Bandwidth(MB': {s): 277.167}
+
+-
+    'Kernel Name': ResidualBlock-in_48x28x28-out_96-k_7-e_4-s_2-act_h_swish-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.628
+    'Average Time (ms)': 0.636
+    'Maximum Time (ms)': 0.769
+    Workload(GOP): 0.026
+    'DPU Performance(GOP': {s): 9.711}
+    'Mem IO(MB)': 0.402
+    'Mem Bandwidth(MB': {s): 693.936}
+
+-
+    'Kernel Name': ResidualBlock-in_48x28x28-out_48-k_7-e_6-s_1-act_relu-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 2.221
+    'Average Time (ms)': 2.233
+    'Maximum Time (ms)': 2.436
+    Workload(GOP): 0.067
+    'DPU Performance(GOP': {s): 6.648}
+    'Mem IO(MB)': 1.273
+    'Mem Bandwidth(MB': {s): 585.638}
+
+-
+    'Kernel Name': ResidualBlock-in_136x14x14-out_136-k_5-e_4-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.27
+    'Average Time (ms)': 1.281
+    'Maximum Time (ms)': 1.509
+    Workload(GOP): 0.065
+    'DPU Performance(GOP': {s): 11.472}
+    'Mem IO(MB)': 0.374
+    'Mem Bandwidth(MB': {s): 306.474}
+
+-
+    'Kernel Name': ResidualBlock-in_136x14x14-out_192-k_3-e_6-s_2-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.261
+    'Average Time (ms)': 1.274
+    'Maximum Time (ms)': 1.581
+    Workload(GOP): 0.061
+    'DPU Performance(GOP': {s): 10.883}
+    'Mem IO(MB)': 0.951
+    'Mem Bandwidth(MB': {s): 782.972}
+
+-
+    'Kernel Name': ResidualBlock-in_48x28x28-out_96-k_3-e_3-s_2-act_h_swish-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.374
+    'Average Time (ms)': 0.386
+    'Maximum Time (ms)': 0.873
+    Workload(GOP): 0.017
+    'DPU Performance(GOP': {s): 11.47}
+    'Mem IO(MB)': 0.291
+    'Mem Bandwidth(MB': {s): 892.452}
+
+-
+    'Kernel Name': ResidualBlock-in_32x56x56-out_32-k_7-e_3-s_1-act_relu-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.938
+    'Average Time (ms)': 1.955
+    'Maximum Time (ms)': 4.766
+    Workload(GOP): 0.069
+    'DPU Performance(GOP': {s): 7.929}
+    'Mem IO(MB)': 0.872
+    'Mem Bandwidth(MB': {s): 462.09}
+
+-
+    'Kernel Name': ResidualBlock-in_24x112x112-out_24-k_5-e_1-s_1-act_relu-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.344
+    'Average Time (ms)': 1.358
+    'Maximum Time (ms)': 1.487
+    Workload(GOP): 0.031
+    'DPU Performance(GOP': {s): 5.187}
+    'Mem IO(MB)': 1.437
+    'Mem Bandwidth(MB': {s): 1118.239}
+
+-
+    'Kernel Name': ResidualBlock-in_48x28x28-out_96-k_7-e_6-s_2-act_h_swish-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.367
+    'Average Time (ms)': 1.386
+    'Maximum Time (ms)': 2.264
+    Workload(GOP): 0.039
+    'DPU Performance(GOP': {s): 6.394}
+    'Mem IO(MB)': 1.73
+    'Mem Bandwidth(MB': {s): 1310.08}
+
+-
+    'Kernel Name': ResidualBlock-in_136x14x14-out_136-k_3-e_4-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.06
+    'Average Time (ms)': 1.066
+    'Maximum Time (ms)': 1.211
+    Workload(GOP): 0.061
+    'DPU Performance(GOP': {s): 13.144}
+    'Mem IO(MB)': 0.366
+    'Mem Bandwidth(MB': {s): 362.506}
+
+-
+    'Kernel Name': ResidualBlock-in_32x56x56-out_32-k_3-e_4-s_1-act_relu-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.869
+    'Average Time (ms)': 0.886
+    'Maximum Time (ms)': 1.447
+    Workload(GOP): 0.06
+    'DPU Performance(GOP': {s): 15.803}
+    'Mem IO(MB)': 1.065
+    'Mem Bandwidth(MB': {s): 1299.224}
+
+-
+    'Kernel Name': ResidualBlock-in_96x14x14-out_136-k_5-e_4-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.706
+    'Average Time (ms)': 0.716
+    'Maximum Time (ms)': 1.058
+    Workload(GOP): 0.039
+    'DPU Performance(GOP': {s): 13.076}
+    'Mem IO(MB)': 0.21
+    'Mem Bandwidth(MB': {s): 320.406}
+
+-
+    'Kernel Name': ResidualBlock-in_48x28x28-out_48-k_3-e_6-s_1-act_relu-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.258
+    'Average Time (ms)': 1.27
+    'Maximum Time (ms)': 1.76
+    Workload(GOP): 0.049
+    'DPU Performance(GOP': {s): 8.699}
+    'Mem IO(MB)': 1.257
+    'Mem Bandwidth(MB': {s): 1038.327}
+
+-
+    'Kernel Name': ResidualBlock-in_192x7x7-out_192-k_7-e_3-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.73
+    'Average Time (ms)': 0.734
+    'Maximum Time (ms)': 0.919
+    Workload(GOP): 0.025
+    'DPU Performance(GOP': {s): 8.008}
+    'Mem IO(MB)': 0.426
+    'Mem Bandwidth(MB': {s): 628.155}
+
+-
+    'Kernel Name': ResidualBlock-in_32x56x56-out_32-k_7-e_6-s_1-act_relu-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 3.741
+    'Average Time (ms)': 3.754
+    'Maximum Time (ms)': 4.229
+    Workload(GOP): 0.138
+    'DPU Performance(GOP': {s): 8.092}
+    'Mem IO(MB)': 1.467
+    'Mem Bandwidth(MB': {s): 397.557}
+
+-
+    'Kernel Name': ResidualBlock-in_48x28x28-out_96-k_5-e_6-s_2-act_h_swish-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.197
+    'Average Time (ms)': 1.203
+    'Maximum Time (ms)': 1.293
+    Workload(GOP): 0.036
+    'DPU Performance(GOP': {s): 6.852}
+    'Mem IO(MB)': 1.654
+    'Mem Bandwidth(MB': {s): 1442.938}
+
+-
+    'Kernel Name': ResidualBlock-in_48x28x28-out_96-k_5-e_3-s_2-act_h_swish-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.404
+    'Average Time (ms)': 0.411
+    'Maximum Time (ms)': 0.521
+    Workload(GOP): 0.018
+    'DPU Performance(GOP': {s): 11.038}
+    'Mem IO(MB)': 0.304
+    'Mem Bandwidth(MB': {s): 854.593}
+
+-
+    'Kernel Name': ResidualBlock-in_192x7x7-out_192-k_7-e_4-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.909
+    'Average Time (ms)': 0.923
+    'Maximum Time (ms)': 1.884
+    Workload(GOP): 0.034
+    'DPU Performance(GOP': {s): 8.423}
+    'Mem IO(MB)': 0.629
+    'Mem Bandwidth(MB': {s): 728.952}
+
+-
+    'Kernel Name': ResidualBlock-in_136x14x14-out_192-k_7-e_4-s_2-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.018
+    'Average Time (ms)': 1.025
+    'Maximum Time (ms)': 1.283
+    Workload(GOP): 0.043
+    'DPU Performance(GOP': {s): 9.565}
+    'Mem IO(MB)': 0.577
+    'Mem Bandwidth(MB': {s): 597.235}
+
+-
+    'Kernel Name': ResidualBlock-in_48x28x28-out_48-k_5-e_4-s_1-act_relu-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.702
+    'Average Time (ms)': 0.712
+    'Maximum Time (ms)': 1.05
+    Workload(GOP): 0.037
+    'DPU Performance(GOP': {s): 12.385}
+    'Mem IO(MB)': 0.148
+    'Mem Bandwidth(MB': {s): 227.797}
+
+-
+    'Kernel Name': ResidualBlock-in_96x14x14-out_136-k_3-e_4-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.561
+    'Average Time (ms)': 0.566
+    'Maximum Time (ms)': 0.767
+    Workload(GOP): 0.037
+    'DPU Performance(GOP': {s): 15.824}
+    'Mem IO(MB)': 0.204
+    'Mem Bandwidth(MB': {s): 401.429}
+
+-
+    'Kernel Name': ResidualBlock-in_96x14x14-out_136-k_3-e_3-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.436
+    'Average Time (ms)': 0.444
+    'Maximum Time (ms)': 1.169
+    Workload(GOP): 0.028
+    'DPU Performance(GOP': {s): 15.581}
+    'Mem IO(MB)': 0.151
+    'Mem Bandwidth(MB': {s): 389.579}
+
+-
+    'Kernel Name': ResidualBlock-in_96x14x14-out_136-k_7-e_6-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.637
+    'Average Time (ms)': 1.648
+    'Maximum Time (ms)': 2.409
+    Workload(GOP): 0.065
+    'DPU Performance(GOP': {s): 8.846}
+    'Mem IO(MB)': 0.359
+    'Mem Bandwidth(MB': {s): 226.105}
+
+-
+    'Kernel Name': ResidualBlock-in_48x28x28-out_48-k_7-e_4-s_1-act_relu-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.081
+    'Average Time (ms)': 1.09
+    'Maximum Time (ms)': 1.24
+    Workload(GOP): 0.044
+    'DPU Performance(GOP': {s): 9.341}
+    'Mem IO(MB)': 0.153
+    'Mem Bandwidth(MB': {s): 148.121}
+
+-
+    'Kernel Name': ResidualBlock-in_136x14x14-out_192-k_5-e_3-s_2-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.504
+    'Average Time (ms)': 0.51
+    'Maximum Time (ms)': 0.619
+    Workload(GOP): 0.031
+    'DPU Performance(GOP': {s): 14.758}
+    'Mem IO(MB)': 0.255
+    'Mem Bandwidth(MB': {s): 560.134}
+
+-
+    'Kernel Name': ResidualBlock-in_136x14x14-out_192-k_3-e_3-s_2-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.496
+    'Average Time (ms)': 0.518
+    'Maximum Time (ms)': 3.154
+    Workload(GOP): 0.03
+    'DPU Performance(GOP': {s): 14.536}
+    'Mem IO(MB)': 0.249
+    'Mem Bandwidth(MB': {s): 549.59}
+
+-
+    'Kernel Name': ResidualBlock-in_32x56x56-out_48-k_5-e_6-s_2-act_relu-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.783
+    'Average Time (ms)': 0.791
+    'Maximum Time (ms)': 0.906
+    Workload(GOP): 0.062
+    'DPU Performance(GOP': {s): 18.292}
+    'Mem IO(MB)': 0.185
+    'Mem Bandwidth(MB': {s): 252.68}
+
+-
+    'Kernel Name': ResidualBlock-in_192x7x7-out_192-k_5-e_3-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.634
+    'Average Time (ms)': 0.644
+    'Maximum Time (ms)': 0.847
+    Workload(GOP): 0.024
+    'DPU Performance(GOP': {s): 8.763}
+    'Mem IO(MB)': 0.413
+    'Mem Bandwidth(MB': {s): 704.177}
+
+-
+    'Kernel Name': ResidualBlock-in_32x56x56-out_32-k_5-e_6-s_1-act_relu-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 2.226
+    'Average Time (ms)': 2.239
+    'Maximum Time (ms)': 2.469
+    Workload(GOP): 0.109
+    'DPU Performance(GOP': {s): 10.839}
+    'Mem IO(MB)': 1.459
+    'Mem Bandwidth(MB': {s): 670.521}
+
+-
+    'Kernel Name': ResidualBlock-in_32x56x56-out_48-k_7-e_4-s_2-act_relu-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.822
+    'Average Time (ms)': 0.829
+    'Maximum Time (ms)': 1.612
+    Workload(GOP): 0.046
+    'DPU Performance(GOP': {s): 12.949}
+    'Mem IO(MB)': 0.173
+    'Mem Bandwidth(MB': {s): 224.735}
+
+-
+    'Kernel Name': ResidualBlock-in_24x112x112-out_32-k_3-e_4-s_2-act_relu-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.827
+    'Average Time (ms)': 0.84
+    'Maximum Time (ms)': 1.009
+    Workload(GOP): 0.084
+    'DPU Performance(GOP': {s): 23.586}
+    'Mem IO(MB)': 0.968
+    'Mem Bandwidth(MB': {s): 1251.44}
+
+-
+    'Kernel Name': ResidualBlock-in_48x28x28-out_48-k_3-e_4-s_1-act_relu-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.447
+    'Average Time (ms)': 0.453
+    'Maximum Time (ms)': 0.598
+    Workload(GOP): 0.032
+    'DPU Performance(GOP': {s): 17.673}
+    'Mem IO(MB)': 0.145
+    'Mem Bandwidth(MB': {s): 366.078}
+
+-
+    'Kernel Name': ResidualBlock-in_48x28x28-out_48-k_5-e_6-s_1-act_relu-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.646
+    'Average Time (ms)': 1.658
+    'Maximum Time (ms)': 1.815
+    Workload(GOP): 0.056
+    'DPU Performance(GOP': {s): 7.573}
+    'Mem IO(MB)': 1.264
+    'Mem Bandwidth(MB': {s): 791.108}
+
+-
+    'Kernel Name': ResidualBlock-in_192x7x7-out_192-k_3-e_3-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.632
+    'Average Time (ms)': 0.639
+    'Maximum Time (ms)': 1.345
+    Workload(GOP): 0.023
+    'DPU Performance(GOP': {s): 8.497}
+    'Mem IO(MB)': 0.404
+    'Mem Bandwidth(MB': {s): 694.823}
+
+-
+    'Kernel Name': ResidualBlock-in_24x112x112-out_32-k_5-e_4-s_2-act_relu-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.239
+    'Average Time (ms)': 1.257
+    'Maximum Time (ms)': 1.47
+    Workload(GOP): 0.094
+    'DPU Performance(GOP': {s): 17.132}
+    'Mem IO(MB)': 0.988
+    'Mem Bandwidth(MB': {s): 831.924}
+
+-
+    'Kernel Name': ResidualBlock-in_192x7x7-out_192-k_7-e_6-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.559
+    'Average Time (ms)': 1.572
+    'Maximum Time (ms)': 2.379
+    Workload(GOP): 0.051
+    'DPU Performance(GOP': {s): 7.267}
+    'Mem IO(MB)': 1.141
+    'Mem Bandwidth(MB': {s): 753.95}
+
+-
+    'Kernel Name': ResidualBlock-in_24x112x112-out_24-k_3-e_1-s_1-act_relu-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.886
+    'Average Time (ms)': 0.903
+    'Maximum Time (ms)': 1.267
+    Workload(GOP): 0.021
+    'DPU Performance(GOP': {s): 5.529}
+    'Mem IO(MB)': 1.436
+    'Mem Bandwidth(MB': {s): 1736.415}
+
+-
+    'Kernel Name': ResidualBlock-in_136x14x14-out_192-k_7-e_3-s_2-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.551
+    'Average Time (ms)': 0.557
+    'Maximum Time (ms)': 0.958
+    Workload(GOP): 0.032
+    'DPU Performance(GOP': {s): 13.827}
+    'Mem IO(MB)': 0.264
+    'Mem Bandwidth(MB': {s): 527.661}
+
+-
+    'Kernel Name': ResidualBlock-in_136x14x14-out_136-k_5-e_3-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.764
+    'Average Time (ms)': 0.775
+    'Maximum Time (ms)': 1.122
+    Workload(GOP): 0.048
+    'DPU Performance(GOP': {s): 14.709}
+    'Mem IO(MB)': 0.275
+    'Mem Bandwidth(MB': {s): 385.075}
+
+-
+    'Kernel Name': ResidualBlock-in_192x7x7-out_192-k_5-e_4-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.778
+    'Average Time (ms)': 0.784
+    'Maximum Time (ms)': 0.941
+    Workload(GOP): 0.032
+    'DPU Performance(GOP': {s): 9.445}
+    'Mem IO(MB)': 0.612
+    'Mem Bandwidth(MB': {s): 839.82}
+
+-
+    'Kernel Name': ResidualBlock-in_32x56x56-out_32-k_7-e_4-s_1-act_relu-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 2.604
+    'Average Time (ms)': 2.612
+    'Maximum Time (ms)': 2.768
+    Workload(GOP): 0.092
+    'DPU Performance(GOP': {s): 7.81}
+    'Mem IO(MB)': 1.077
+    'Mem Bandwidth(MB': {s): 422.138}
+
+-
+    'Kernel Name': ResidualBlock-in_136x14x14-out_136-k_5-e_6-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.908
+    'Average Time (ms)': 1.919
+    'Maximum Time (ms)': 2.144
+    Workload(GOP): 0.097
+    'DPU Performance(GOP': {s): 11.326}
+    'Mem IO(MB)': 0.635
+    'Mem Bandwidth(MB': {s): 341.684}
+
+-
+    'Kernel Name': ResidualBlock-in_96x14x14-out_96-k_7-e_3-s_1-act_h_swish-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.641
+    'Average Time (ms)': 0.648
+    'Maximum Time (ms)': 1.168
+    Workload(GOP): 0.028
+    'DPU Performance(GOP': {s): 10.134}
+    'Mem IO(MB)': 0.121
+    'Mem Bandwidth(MB': {s): 204.144}
+
+-
+    'Kernel Name': ResidualBlock-in_32x56x56-out_48-k_3-e_6-s_2-act_relu-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.531
+    'Average Time (ms)': 0.543
+    'Maximum Time (ms)': 0.727
+    Workload(GOP): 0.057
+    'DPU Performance(GOP': {s): 25.527}
+    'Mem IO(MB)': 0.17
+    'Mem Bandwidth(MB': {s): 351.691}
+
+-
+    'Kernel Name': ResidualBlock-in_96x14x14-out_96-k_3-e_4-s_1-act_h_swish-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.467
+    'Average Time (ms)': 0.471
+    'Maximum Time (ms)': 0.569
+    Workload(GOP): 0.031
+    'DPU Performance(GOP': {s): 16.066}
+    'Mem IO(MB)': 0.128
+    'Mem Bandwidth(MB': {s): 308.657}
+
+-
+    'Kernel Name': ResidualBlock-in_24x112x112-out_24-k_7-e_1-s_1-act_relu-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 2.098
+    'Average Time (ms)': 2.115
+    'Maximum Time (ms)': 2.583
+    Workload(GOP): 0.045
+    'DPU Performance(GOP': {s): 4.807}
+    'Mem IO(MB)': 1.437
+    'Mem Bandwidth(MB': {s): 704.971}
+
+-
+    'Kernel Name': ResidualBlock-in_136x14x14-out_192-k_3-e_4-s_2-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.856
+    'Average Time (ms)': 0.859
+    'Maximum Time (ms)': 0.964
+    Workload(GOP): 0.04
+    'DPU Performance(GOP': {s): 10.926}
+    'Mem IO(MB)': 0.564
+    'Mem Bandwidth(MB': {s): 701.387}
+
+-
+    'Kernel Name': ResidualBlock-in_136x14x14-out_136-k_7-e_3-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.996
+    'Average Time (ms)': 1.006
+    'Maximum Time (ms)': 1.695
+    Workload(GOP): 0.052
+    'DPU Performance(GOP': {s): 11.987}
+    'Mem IO(MB)': 0.284
+    'Mem Bandwidth(MB': {s): 300.641}
+
+-
+    'Kernel Name': ResidualBlock-in_24x112x112-out_32-k_3-e_6-s_2-act_relu-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.205
+    'Average Time (ms)': 1.222
+    'Maximum Time (ms)': 1.413
+    Workload(GOP): 0.126
+    'DPU Performance(GOP': {s): 23.716}
+    'Mem IO(MB)': 1.261
+    'Mem Bandwidth(MB': {s): 1092.943}
+
+-
+    'Kernel Name': ResidualBlock-in_48x28x28-out_48-k_5-e_3-s_1-act_relu-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.543
+    'Average Time (ms)': 0.55
+    'Maximum Time (ms)': 0.706
+    Workload(GOP): 0.028
+    'DPU Performance(GOP': {s): 12.24}
+    'Mem IO(MB)': 0.136
+    'Mem Bandwidth(MB': {s): 274.933}
+
+-
+    'Kernel Name': ResidualBlock-in_136x14x14-out_136-k_7-e_4-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.594
+    'Average Time (ms)': 1.606
+    'Maximum Time (ms)': 2.132
+    Workload(GOP): 0.07
+    'DPU Performance(GOP': {s): 9.775}
+    'Mem IO(MB)': 0.387
+    'Mem Bandwidth(MB': {s): 250.01}
+
+-
+    'Kernel Name': ResidualBlock-in_32x56x56-out_48-k_5-e_3-s_2-act_relu-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.433
+    'Average Time (ms)': 0.443
+    'Maximum Time (ms)': 0.603
+    Workload(GOP): 0.031
+    'DPU Performance(GOP': {s): 17.405}
+    'Mem IO(MB)': 0.151
+    'Mem Bandwidth(MB': {s): 393.485}
+
+-
+    'Kernel Name': ResidualBlock-in_96x14x14-out_96-k_5-e_4-s_1-act_h_swish-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.612
+    'Average Time (ms)': 0.617
+    'Maximum Time (ms)': 0.717
+    Workload(GOP): 0.033
+    'DPU Performance(GOP': {s): 12.804}
+    'Mem IO(MB)': 0.134
+    'Mem Bandwidth(MB': {s): 238.551}
+
+-
+    'Kernel Name': ResidualBlock-in_136x14x14-out_192-k_5-e_4-s_2-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.901
+    'Average Time (ms)': 0.915
+    'Maximum Time (ms)': 1.135
+    Workload(GOP): 0.041
+    'DPU Performance(GOP': {s): 10.462}
+    'Mem IO(MB)': 0.587
+    'Mem Bandwidth(MB': {s): 684.372}
+
+-
+    'Kernel Name': ResidualBlock-in_136x14x14-out_136-k_3-e_6-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.596
+    'Average Time (ms)': 1.607
+    'Maximum Time (ms)': 1.903
+    Workload(GOP): 0.092
+    'DPU Performance(GOP': {s): 12.88}
+    'Mem IO(MB)': 0.623
+    'Mem Bandwidth(MB': {s): 402.163}
+
+-
+    'Kernel Name': ResidualBlock-in_24x112x112-out_32-k_5-e_3-s_2-act_relu-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.97
+    'Average Time (ms)': 0.985
+    'Maximum Time (ms)': 1.67
+    Workload(GOP): 0.07
+    'DPU Performance(GOP': {s): 16.709}
+    'Mem IO(MB)': 0.835
+    'Mem Bandwidth(MB': {s): 913.808}
+
+-
+    'Kernel Name': ResidualBlock-in_96x14x14-out_96-k_7-e_6-s_1-act_h_swish-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.259
+    'Average Time (ms)': 1.266
+    'Maximum Time (ms)': 1.422
+    Workload(GOP): 0.055
+    'DPU Performance(GOP': {s): 9.904}
+    'Mem IO(MB)': 0.187
+    'Mem Bandwidth(MB': {s): 155.087}
+
+-
+    'Kernel Name': ResidualBlock-in_48x28x28-out_96-k_7-e_3-s_2-act_h_swish-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.49
+    'Average Time (ms)': 0.504
+    'Maximum Time (ms)': 1.2
+    Workload(GOP): 0.019
+    'DPU Performance(GOP': {s): 9.553}
+    'Mem IO(MB)': 0.315
+    'Mem Bandwidth(MB': {s): 712.981}
+
+-
+    'Kernel Name': ResidualBlock-in_24x112x112-out_32-k_3-e_3-s_2-act_relu-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.66
+    'Average Time (ms)': 0.675
+    'Maximum Time (ms)': 0.833
+    Workload(GOP): 0.063
+    'DPU Performance(GOP': {s): 22.584}
+    'Mem IO(MB)': 0.821
+    'Mem Bandwidth(MB': {s): 1353.579}
+
+-
+    'Kernel Name': ResidualBlock-in_32x56x56-out_48-k_7-e_6-s_2-act_relu-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.184
+    'Average Time (ms)': 1.193
+    'Maximum Time (ms)': 1.366
+    Workload(GOP): 0.069
+    'DPU Performance(GOP': {s): 13.198}
+    'Mem IO(MB)': 0.199
+    'Mem Bandwidth(MB': {s): 176.119}
+
+-
+    'Kernel Name': ResidualBlock-in_136x14x14-out_136-k_3-e_3-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.608
+    'Average Time (ms)': 0.614
+    'Maximum Time (ms)': 0.766
+    Workload(GOP): 0.046
+    'DPU Performance(GOP': {s): 17.802}
+    'Mem IO(MB)': 0.269
+    'Mem Bandwidth(MB': {s): 480.948}
+
+-
+    'Kernel Name': ResidualBlock-in_192x7x7-out_192-k_3-e_6-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.267
+    'Average Time (ms)': 1.283
+    'Maximum Time (ms)': 1.68
+    Workload(GOP): 0.046
+    'DPU Performance(GOP': {s): 8.184}
+    'Mem IO(MB)': 1.097
+    'Mem Bandwidth(MB': {s): 896.229}
+
+-
+    'Kernel Name': ResidualBlock-in_32x56x56-out_32-k_3-e_3-s_1-act_relu-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.68
+    'Average Time (ms)': 0.695
+    'Maximum Time (ms)': 1.142
+    Workload(GOP): 0.045
+    'DPU Performance(GOP': {s): 15.398}
+    'Mem IO(MB)': 0.868
+    'Mem Bandwidth(MB': {s): 1373.346}
+
+-
+    'Kernel Name': ResidualBlock-in_24x112x112-out_32-k_7-e_3-s_2-act_relu-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.538
+    'Average Time (ms)': 1.552
+    'Maximum Time (ms)': 1.705
+    Workload(GOP): 0.081
+    'DPU Performance(GOP': {s): 11.877}
+    'Mem IO(MB)': 0.846
+    'Mem Bandwidth(MB': {s): 570.819}
+
+-
+    'Kernel Name': ResidualBlock-in_48x28x28-out_96-k_3-e_6-s_2-act_h_swish-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.138
+    'Average Time (ms)': 1.151
+    'Maximum Time (ms)': 1.576
+    Workload(GOP): 0.034
+    'DPU Performance(GOP': {s): 6.844}
+    'Mem IO(MB)': 1.612
+    'Mem Bandwidth(MB': {s): 1477.499}
+
+-
+    'Kernel Name': ResidualBlock-in_32x56x56-out_32-k_3-e_6-s_1-act_relu-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.221
+    'Average Time (ms)': 1.232
+    'Maximum Time (ms)': 1.45
+    Workload(GOP): 0.089
+    'DPU Performance(GOP': {s): 16.588}
+    'Mem IO(MB)': 1.453
+    'Mem Bandwidth(MB': {s): 1241.867}
+
+-
+    'Kernel Name': ResidualBlock-in_48x28x28-out_48-k_7-e_3-s_1-act_relu-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.828
+    'Average Time (ms)': 0.838
+    'Maximum Time (ms)': 0.982
+    Workload(GOP): 0.033
+    'DPU Performance(GOP': {s): 9.278}
+    'Mem IO(MB)': 0.139
+    'Mem Bandwidth(MB': {s): 178.739}
+
+-
+    'Kernel Name': ResidualBlock-in_96x14x14-out_136-k_3-e_6-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.075
+    'Average Time (ms)': 1.082
+    'Maximum Time (ms)': 1.308
+    Workload(GOP): 0.056
+    'DPU Performance(GOP': {s): 11.769}
+    'Mem IO(MB)': 0.337
+    'Mem Bandwidth(MB': {s): 328.199}
+
+-
+    'Kernel Name': ResidualBlock-in_32x56x56-out_48-k_3-e_4-s_2-act_relu-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.379
+    'Average Time (ms)': 0.387
+    'Maximum Time (ms)': 0.621
+    Workload(GOP): 0.038
+    'DPU Performance(GOP': {s): 24.93}
+    'Mem IO(MB)': 0.153
+    'Mem Bandwidth(MB': {s): 462.891}
+
+-
+    'Kernel Name': ResidualBlock-in_48x28x28-out_96-k_3-e_4-s_2-act_h_swish-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.465
+    'Average Time (ms)': 0.473
+    'Maximum Time (ms)': 0.614
+    Workload(GOP): 0.023
+    'DPU Performance(GOP': {s): 11.933}
+    'Mem IO(MB)': 0.369
+    'Mem Bandwidth(MB': {s): 885.627}
+
+-
+    'Kernel Name': ResidualBlock-in_32x56x56-out_48-k_7-e_3-s_2-act_relu-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.628
+    'Average Time (ms)': 0.634
+    'Maximum Time (ms)': 0.779
+    Workload(GOP): 0.034
+    'DPU Performance(GOP': {s): 12.993}
+    'Mem IO(MB)': 0.157
+    'Mem Bandwidth(MB': {s): 272.678}
+
+-
+    'Kernel Name': ResidualBlock-in_96x14x14-out_136-k_5-e_3-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.547
+    'Average Time (ms)': 0.551
+    'Maximum Time (ms)': 0.649
+    Workload(GOP): 0.03
+    'DPU Performance(GOP': {s): 12.934}
+    'Mem IO(MB)': 0.155
+    'Mem Bandwidth(MB': {s): 312.495}
+
+-
+    'Kernel Name': ResidualBlock-in_32x56x56-out_32-k_5-e_3-s_1-act_relu-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.185
+    'Average Time (ms)': 1.196
+    'Maximum Time (ms)': 1.351
+    Workload(GOP): 0.054
+    'DPU Performance(GOP': {s): 10.437}
+    'Mem IO(MB)': 0.87
+    'Mem Bandwidth(MB': {s): 767.57}
+
+-
+    'Kernel Name': ResidualBlock-in_136x14x14-out_136-k_7-e_6-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 2.389
+    'Average Time (ms)': 2.401
+    'Maximum Time (ms)': 3.338
+    Workload(GOP): 0.105
+    'DPU Performance(GOP': {s): 9.714}
+    'Mem IO(MB)': 0.654
+    'Mem Bandwidth(MB': {s): 279.55}
+
+-
+    'Kernel Name': ResidualBlock-in_48x28x28-out_96-k_5-e_4-s_2-act_h_swish-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.517
+    'Average Time (ms)': 0.527
+    'Maximum Time (ms)': 0.939
+    Workload(GOP): 0.024
+    'DPU Performance(GOP': {s): 11.213}
+    'Mem IO(MB)': 0.388
+    'Mem Bandwidth(MB': {s): 829.891}
+
+-
+    'Kernel Name': ResidualBlock-in_32x56x56-out_48-k_5-e_4-s_2-act_relu-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.554
+    'Average Time (ms)': 0.562
+    'Maximum Time (ms)': 1.074
+    Workload(GOP): 0.041
+    'DPU Performance(GOP': {s): 17.715}
+    'Mem IO(MB)': 0.163
+    'Mem Bandwidth(MB': {s): 324.071}
+
+-
+    'Kernel Name': ResidualBlock-in_192x7x7-out_192-k_3-e_4-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.78
+    'Average Time (ms)': 0.787
+    'Maximum Time (ms)': 1.057
+    Workload(GOP): 0.03
+    'DPU Performance(GOP': {s): 9.064}
+    'Mem IO(MB)': 0.6
+    'Mem Bandwidth(MB': {s): 821.685}
+
+-
+    'Kernel Name': ResidualBlock-in_32x56x56-out_48-k_3-e_3-s_2-act_relu-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.312
+    'Average Time (ms)': 0.318
+    'Maximum Time (ms)': 0.58
+    Workload(GOP): 0.028
+    'DPU Performance(GOP': {s): 23.758}
+    'Mem IO(MB)': 0.146
+    'Mem Bandwidth(MB': {s): 563.814}
+
+-
+    'Kernel Name': ResidualBlock-in_32x56x56-out_32-k_5-e_4-s_1-act_relu-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.563
+    'Average Time (ms)': 1.575
+    'Maximum Time (ms)': 1.931
+    Workload(GOP): 0.073
+    'DPU Performance(GOP': {s): 10.413}
+    'Mem IO(MB)': 1.071
+    'Mem Bandwidth(MB': {s): 708.114}
+
+-
+    'Kernel Name': ResidualBlock-in_96x14x14-out_136-k_7-e_4-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.926
+    'Average Time (ms)': 0.932
+    'Maximum Time (ms)': 1.025
+    Workload(GOP): 0.043
+    'DPU Performance(GOP': {s): 10.686}
+    'Mem IO(MB)': 0.219
+    'Mem Bandwidth(MB': {s): 249.931}
+
+-
+    'Kernel Name': ResidualBlock-in_24x112x112-out_32-k_7-e_6-s_2-act_relu-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 2.981
+    'Average Time (ms)': 2.995
+    'Maximum Time (ms)': 3.258
+    Workload(GOP): 0.162
+    'DPU Performance(GOP': {s): 12.039}
+    'Mem IO(MB)': 1.323
+    'Mem Bandwidth(MB': {s): 452.43}
+
+-
+    'Kernel Name': ResidualBlock-in_96x14x14-out_96-k_7-e_4-s_1-act_h_swish-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.83
+    'Average Time (ms)': 0.844
+    'Maximum Time (ms)': 1.825
+    Workload(GOP): 0.037
+    'DPU Performance(GOP': {s): 10.191}
+    'Mem IO(MB)': 0.143
+    'Mem Bandwidth(MB': {s): 182.447}
+
+-
+    'Kernel Name': ResidualBlock-in_192x7x7-out_192-k_5-e_6-s_1-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.392
+    'Average Time (ms)': 1.401
+    'Maximum Time (ms)': 1.833
+    Workload(GOP): 0.048
+    'DPU Performance(GOP': {s): 7.745}
+    'Mem IO(MB)': 1.115
+    'Mem Bandwidth(MB': {s): 829.288}
+
+-
+    'Kernel Name': ResidualBlock-in_96x14x14-out_96-k_3-e_3-s_1-act_h_swish-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.368
+    'Average Time (ms)': 0.373
+    'Maximum Time (ms)': 0.486
+    Workload(GOP): 0.023
+    'DPU Performance(GOP': {s): 15.781}
+    'Mem IO(MB)': 0.11
+    'Mem Bandwidth(MB': {s): 345.456}
+
+-
+    'Kernel Name': ResidualBlock-in_24x112x112-out_32-k_5-e_6-s_2-act_relu-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.836
+    'Average Time (ms)': 1.85
+    'Maximum Time (ms)': 1.997
+    Workload(GOP): 0.141
+    'DPU Performance(GOP': {s): 17.165}
+    'Mem IO(MB)': 1.294
+    'Mem Bandwidth(MB': {s): 728.245}
+
+-
+    'Kernel Name': ResidualBlock-in_24x112x112-out_32-k_7-e_4-s_2-act_relu-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 2.002
+    'Average Time (ms)': 2.015
+    'Maximum Time (ms)': 2.216
+    Workload(GOP): 0.108
+    'DPU Performance(GOP': {s): 12.059}
+    'Mem IO(MB)': 1.005
+    'Mem Bandwidth(MB': {s): 516.39}
+
+-
+    'Kernel Name': ResidualBlock-in_96x14x14-out_96-k_3-e_6-s_1-act_h_swish-use_se_False
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 0.699
+    'Average Time (ms)': 0.717
+    'Maximum Time (ms)': 2.85
+    Workload(GOP): 0.046
+    'DPU Performance(GOP': {s): 15.379}
+    'Mem IO(MB)': 0.165
+    'Mem Bandwidth(MB': {s): 254.208}
+
+-
+    'Kernel Name': ResidualBlock-in_136x14x14-out_192-k_7-e_6-s_2-act_h_swish-use_se_True
+    'Number Of Runs': 500
+    'CU Full Name': 'DPUCZDX8G_1:batch-1'
+    'Minimum Time (ms)': 1.461
+    'Average Time (ms)': 1.477
+    'Maximum Time (ms)': 1.813
+    Workload(GOP): 0.064
+    'DPU Performance(GOP': {s): 9.819}
+    'Mem IO(MB)': 1.015
+    'Mem Bandwidth(MB': {s): 716.172}
+

@@ -1,0 +1,2037 @@
+
+root@u96v2-sbc-2022-2:~/All compiled blocks# ls
+ResidualBlock-in_136x14x14-out_136-k_3-e_3-s_1-act_h_swish-use_se_True  ResidualBlock-in_32x56x56-out_48-k_3-e_3-s_2-act_relu-use_se_True
+ResidualBlock-in_136x14x14-out_136-k_3-e_4-s_1-act_h_swish-use_se_True  ResidualBlock-in_32x56x56-out_48-k_3-e_4-s_2-act_relu-use_se_True
+ResidualBlock-in_136x14x14-out_136-k_3-e_6-s_1-act_h_swish-use_se_True  ResidualBlock-in_32x56x56-out_48-k_3-e_6-s_2-act_relu-use_se_True
+ResidualBlock-in_136x14x14-out_136-k_5-e_3-s_1-act_h_swish-use_se_True  ResidualBlock-in_32x56x56-out_48-k_5-e_3-s_2-act_relu-use_se_True
+ResidualBlock-in_136x14x14-out_136-k_5-e_4-s_1-act_h_swish-use_se_True  ResidualBlock-in_32x56x56-out_48-k_5-e_4-s_2-act_relu-use_se_True
+ResidualBlock-in_136x14x14-out_136-k_5-e_6-s_1-act_h_swish-use_se_True  ResidualBlock-in_32x56x56-out_48-k_5-e_6-s_2-act_relu-use_se_True
+ResidualBlock-in_136x14x14-out_136-k_7-e_3-s_1-act_h_swish-use_se_True  ResidualBlock-in_32x56x56-out_48-k_7-e_3-s_2-act_relu-use_se_True
+ResidualBlock-in_136x14x14-out_136-k_7-e_4-s_1-act_h_swish-use_se_True  ResidualBlock-in_32x56x56-out_48-k_7-e_4-s_2-act_relu-use_se_True
+ResidualBlock-in_136x14x14-out_136-k_7-e_6-s_1-act_h_swish-use_se_True  ResidualBlock-in_32x56x56-out_48-k_7-e_6-s_2-act_relu-use_se_True
+ResidualBlock-in_136x14x14-out_192-k_3-e_3-s_2-act_h_swish-use_se_True  ResidualBlock-in_48x28x28-out_48-k_3-e_3-s_1-act_relu-use_se_True
+ResidualBlock-in_136x14x14-out_192-k_3-e_4-s_2-act_h_swish-use_se_True  ResidualBlock-in_48x28x28-out_48-k_3-e_4-s_1-act_relu-use_se_True
+ResidualBlock-in_136x14x14-out_192-k_3-e_6-s_2-act_h_swish-use_se_True  ResidualBlock-in_48x28x28-out_48-k_3-e_6-s_1-act_relu-use_se_True
+ResidualBlock-in_136x14x14-out_192-k_5-e_3-s_2-act_h_swish-use_se_True  ResidualBlock-in_48x28x28-out_48-k_5-e_3-s_1-act_relu-use_se_True
+ResidualBlock-in_136x14x14-out_192-k_5-e_4-s_2-act_h_swish-use_se_True  ResidualBlock-in_48x28x28-out_48-k_5-e_4-s_1-act_relu-use_se_True
+ResidualBlock-in_136x14x14-out_192-k_5-e_6-s_2-act_h_swish-use_se_True  ResidualBlock-in_48x28x28-out_48-k_5-e_6-s_1-act_relu-use_se_True
+ResidualBlock-in_136x14x14-out_192-k_7-e_3-s_2-act_h_swish-use_se_True  ResidualBlock-in_48x28x28-out_48-k_7-e_3-s_1-act_relu-use_se_True
+ResidualBlock-in_136x14x14-out_192-k_7-e_4-s_2-act_h_swish-use_se_True  ResidualBlock-in_48x28x28-out_48-k_7-e_4-s_1-act_relu-use_se_True
+ResidualBlock-in_136x14x14-out_192-k_7-e_6-s_2-act_h_swish-use_se_True  ResidualBlock-in_48x28x28-out_48-k_7-e_6-s_1-act_relu-use_se_True
+ResidualBlock-in_192x7x7-out_192-k_3-e_3-s_1-act_h_swish-use_se_True    ResidualBlock-in_48x28x28-out_96-k_3-e_3-s_2-act_h_swish-use_se_False
+ResidualBlock-in_192x7x7-out_192-k_3-e_4-s_1-act_h_swish-use_se_True    ResidualBlock-in_48x28x28-out_96-k_3-e_4-s_2-act_h_swish-use_se_False
+ResidualBlock-in_192x7x7-out_192-k_3-e_6-s_1-act_h_swish-use_se_True    ResidualBlock-in_48x28x28-out_96-k_3-e_6-s_2-act_h_swish-use_se_False
+ResidualBlock-in_192x7x7-out_192-k_5-e_3-s_1-act_h_swish-use_se_True    ResidualBlock-in_48x28x28-out_96-k_5-e_3-s_2-act_h_swish-use_se_False
+ResidualBlock-in_192x7x7-out_192-k_5-e_4-s_1-act_h_swish-use_se_True    ResidualBlock-in_48x28x28-out_96-k_5-e_4-s_2-act_h_swish-use_se_False
+ResidualBlock-in_192x7x7-out_192-k_5-e_6-s_1-act_h_swish-use_se_True    ResidualBlock-in_48x28x28-out_96-k_5-e_6-s_2-act_h_swish-use_se_False
+ResidualBlock-in_192x7x7-out_192-k_7-e_3-s_1-act_h_swish-use_se_True    ResidualBlock-in_48x28x28-out_96-k_7-e_3-s_2-act_h_swish-use_se_False
+ResidualBlock-in_192x7x7-out_192-k_7-e_4-s_1-act_h_swish-use_se_True    ResidualBlock-in_48x28x28-out_96-k_7-e_4-s_2-act_h_swish-use_se_False
+ResidualBlock-in_192x7x7-out_192-k_7-e_6-s_1-act_h_swish-use_se_True    ResidualBlock-in_48x28x28-out_96-k_7-e_6-s_2-act_h_swish-use_se_False
+ResidualBlock-in_24x112x112-out_24-k_3-e_1-s_1-act_relu-use_se_False    ResidualBlock-in_96x14x14-out_136-k_3-e_3-s_1-act_h_swish-use_se_True
+ResidualBlock-in_24x112x112-out_24-k_5-e_1-s_1-act_relu-use_se_False    ResidualBlock-in_96x14x14-out_136-k_3-e_4-s_1-act_h_swish-use_se_True
+ResidualBlock-in_24x112x112-out_24-k_7-e_1-s_1-act_relu-use_se_False    ResidualBlock-in_96x14x14-out_136-k_3-e_6-s_1-act_h_swish-use_se_True
+ResidualBlock-in_24x112x112-out_32-k_3-e_3-s_2-act_relu-use_se_False    ResidualBlock-in_96x14x14-out_136-k_5-e_3-s_1-act_h_swish-use_se_True
+ResidualBlock-in_24x112x112-out_32-k_3-e_4-s_2-act_relu-use_se_False    ResidualBlock-in_96x14x14-out_136-k_5-e_4-s_1-act_h_swish-use_se_True
+ResidualBlock-in_24x112x112-out_32-k_3-e_6-s_2-act_relu-use_se_False    ResidualBlock-in_96x14x14-out_136-k_5-e_6-s_1-act_h_swish-use_se_True
+ResidualBlock-in_24x112x112-out_32-k_5-e_3-s_2-act_relu-use_se_False    ResidualBlock-in_96x14x14-out_136-k_7-e_3-s_1-act_h_swish-use_se_True
+ResidualBlock-in_24x112x112-out_32-k_5-e_4-s_2-act_relu-use_se_False    ResidualBlock-in_96x14x14-out_136-k_7-e_4-s_1-act_h_swish-use_se_True
+ResidualBlock-in_24x112x112-out_32-k_5-e_6-s_2-act_relu-use_se_False    ResidualBlock-in_96x14x14-out_136-k_7-e_6-s_1-act_h_swish-use_se_True
+ResidualBlock-in_24x112x112-out_32-k_7-e_3-s_2-act_relu-use_se_False    ResidualBlock-in_96x14x14-out_96-k_3-e_3-s_1-act_h_swish-use_se_False
+ResidualBlock-in_24x112x112-out_32-k_7-e_4-s_2-act_relu-use_se_False    ResidualBlock-in_96x14x14-out_96-k_3-e_4-s_1-act_h_swish-use_se_False
+ResidualBlock-in_24x112x112-out_32-k_7-e_6-s_2-act_relu-use_se_False    ResidualBlock-in_96x14x14-out_96-k_3-e_6-s_1-act_h_swish-use_se_False
+ResidualBlock-in_32x56x56-out_32-k_3-e_3-s_1-act_relu-use_se_False      ResidualBlock-in_96x14x14-out_96-k_5-e_3-s_1-act_h_swish-use_se_False
+ResidualBlock-in_32x56x56-out_32-k_3-e_4-s_1-act_relu-use_se_False      ResidualBlock-in_96x14x14-out_96-k_5-e_4-s_1-act_h_swish-use_se_False
+ResidualBlock-in_32x56x56-out_32-k_3-e_6-s_1-act_relu-use_se_False      ResidualBlock-in_96x14x14-out_96-k_5-e_6-s_1-act_h_swish-use_se_False
+ResidualBlock-in_32x56x56-out_32-k_5-e_3-s_1-act_relu-use_se_False      ResidualBlock-in_96x14x14-out_96-k_7-e_3-s_1-act_h_swish-use_se_False
+ResidualBlock-in_32x56x56-out_32-k_5-e_4-s_1-act_relu-use_se_False      ResidualBlock-in_96x14x14-out_96-k_7-e_4-s_1-act_h_swish-use_se_False
+ResidualBlock-in_32x56x56-out_32-k_5-e_6-s_1-act_relu-use_se_False      ResidualBlock-in_96x14x14-out_96-k_7-e_6-s_1-act_h_swish-use_se_False
+ResidualBlock-in_32x56x56-out_32-k_7-e_3-s_1-act_relu-use_se_False      latency_test.py
+ResidualBlock-in_32x56x56-out_32-k_7-e_4-s_1-act_relu-use_se_False      search_folder.sh
+ResidualBlock-in_32x56x56-out_32-k_7-e_6-s_1-act_relu-use_se_False
+root@u96v2-sbc-2022-2:~/All compiled blocks# vi latency_test.py
+root@u96v2-sbc-2022-2:~/All compiled blocks# ./search_folder.sh
+-sh: ./search_folder.sh: Permission denied
+root@u96v2-sbc-2022-2:~/All compiled blocks# sudo chmod +x search_folder.sh
+root@u96v2-sbc-2022-2:~/All compiled blocks# ./search_folder.sh
+./search_folder.sh: line 5: folder_count: command not found
+Searching for profile_summary.csv in all directories...
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 136)
+Total runs:500
+Average run time:0.8063030242919922 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 136)
+Total runs:500
+Average run time:1.2582459449768066 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 136)
+Total runs:500
+Average run time:1.8069944381713867 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 136)
+Total runs:500
+Average run time:0.9758138656616211 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 136)
+Total runs:500
+Average run time:1.4851136207580566 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 136)
+Total runs:500
+Average run time:2.119296073913574 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 136)
+Total runs:500
+Average run time:1.211331844329834 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 136)
+Total runs:500
+Average run time:1.8047590255737305 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 136)
+Total runs:500
+Average run time:2.601996421813965 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 136)
+Total runs:500
+Average run time:0.6970677375793457 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Command executed in 10 folders. Stopping script execution.
+root@u96v2-sbc-2022-2:~/All compiled blocks# ./search_folder.sh
+./search_folder.sh: line 5: folder_count: command not found
+Searching for profile_summary.csv in all directories...
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_3-s_2-act_h_swish-use_se_True/
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 136)
+Total runs:500
+Average run time:1.0285663604736328 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 136)
+Total runs:500
+Average run time:1.4513545036315918 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 136)
+Total runs:500
+Average run time:0.6790022850036621 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 136)
+Total runs:500
+Average run time:1.09071683883667 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 136)
+Total runs:500
+Average run time:1.4975414276123047 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 136)
+Total runs:500
+Average run time:0.7277932167053223 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 136)
+Total runs:500
+Average run time:1.2027983665466309 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 136)
+Total runs:500
+Average run time:1.656355857849121 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 7, 7, 192)
+Total runs:500
+Average run time:0.8021640777587891 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 7, 7, 192)
+Total runs:500
+Average run time:0.9487333297729492 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Command executed in 10 folders. Stopping script execution.
+root@u96v2-sbc-2022-2:~/All compiled blocks# ./search_folder.sh
+./search_folder.sh: line 5: folder_count: command not found
+Searching for profile_summary.csv in all directories...
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_4-s_1-act_h_swish-use_se_True/
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 7, 7, 192)
+Total runs:500
+Average run time:1.4506654739379883 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 7, 7, 192)
+Total runs:500
+Average run time:0.8120951652526855 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 7, 7, 192)
+Total runs:500
+Average run time:0.9441061019897461 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 7, 7, 192)
+Total runs:500
+Average run time:1.5629119873046875 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 7, 7, 192)
+Total runs:500
+Average run time:0.8964776992797852 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 7, 7, 192)
+Total runs:500
+Average run time:1.0900073051452637 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 7, 7, 192)
+Total runs:500
+Average run time:1.7395615577697754 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 112, 112, 24)
+Total runs:500
+Average run time:1.9073853492736816 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 112, 112, 24)
+Total runs:500
+Average run time:2.360848903656006 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 112, 112, 24)
+Total runs:500
+Average run time:3.130113124847412 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Command executed in 10 folders. Stopping script execution.
+root@u96v2-sbc-2022-2:~/All compiled blocks# ./search_folder.sh
+./search_folder.sh: line 5: folder_count: command not found
+Searching for profile_summary.csv in all directories...
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_3-e_1-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_5-e_1-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_7-e_1-s_1-act_relu-use_se_False/
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 112, 112, 24)
+Total runs:500
+Average run time:1.308248519897461 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 112, 112, 24)
+Total runs:500
+Average run time:1.4646472930908203 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 112, 112, 24)
+Total runs:500
+Average run time:1.832674503326416 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 112, 112, 24)
+Total runs:500
+Average run time:1.6106972694396973 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 112, 112, 24)
+Total runs:500
+Average run time:1.897536277770996 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 112, 112, 24)
+Total runs:500
+Average run time:2.4830322265625 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 112, 112, 24)
+Total runs:500
+Average run time:2.184136390686035 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 112, 112, 24)
+Total runs:500
+Average run time:2.6389803886413574 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 112, 112, 24)
+Total runs:500
+Average run time:3.641129493713379 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 56, 56, 32)
+Total runs:500
+Average run time:1.0557498931884766 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Command executed in 10 folders. Stopping script execution.
+root@u96v2-sbc-2022-2:~/All compiled blocks# ./search_folder.sh
+./search_folder.sh: line 5: folder_count: command not found
+Searching for profile_summary.csv in all directories...
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_3-e_1-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_5-e_1-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_7-e_1-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_3-e_3-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_3-e_4-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_3-e_6-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_5-e_3-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_5-e_4-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_5-e_6-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_7-e_3-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_7-e_4-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_7-e_6-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_3-e_3-s_1-act_relu-use_se_False/
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 56, 56, 32)
+Total runs:500
+Average run time:1.23933744430542 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 56, 56, 32)
+Total runs:500
+Average run time:1.5944557189941406 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 56, 56, 32)
+Total runs:500
+Average run time:1.5510573387145996 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 56, 56, 32)
+Total runs:500
+Average run time:1.92962646484375 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 56, 56, 32)
+Total runs:500
+Average run time:2.5960426330566406 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 56, 56, 32)
+Total runs:500
+Average run time:2.3098902702331543 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 56, 56, 32)
+Total runs:500
+Average run time:2.9589896202087402 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 56, 56, 32)
+Total runs:500
+Average run time:4.119857311248779 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 56, 56, 32)
+Total runs:500
+Average run time:0.5721340179443359 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 56, 56, 32)
+Total runs:500
+Average run time:0.6366233825683594 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Command executed in 10 folders. Stopping script execution.
+root@u96v2-sbc-2022-2:~/All compiled blocks# ./search_folder.sh
+./search_folder.sh: line 5: folder_count: command not found
+Searching for profile_summary.csv in all directories...
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_3-e_1-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_5-e_1-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_7-e_1-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_3-e_3-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_3-e_4-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_3-e_6-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_5-e_3-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_5-e_4-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_5-e_6-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_7-e_3-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_7-e_4-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_7-e_6-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_3-e_3-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_3-e_4-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_3-e_6-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_5-e_3-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_5-e_4-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_5-e_6-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_7-e_3-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_7-e_4-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_7-e_6-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_3-e_3-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_3-e_4-s_2-act_relu-use_se_True/
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 56, 56, 32)
+Total runs:500
+Average run time:0.8059124946594238 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 56, 56, 32)
+Total runs:500
+Average run time:0.7027482986450195 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 56, 56, 32)
+Total runs:500
+Average run time:0.8160219192504883 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 56, 56, 32)
+Total runs:500
+Average run time:1.0556740760803223 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 56, 56, 32)
+Total runs:500
+Average run time:0.8943033218383789 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 56, 56, 32)
+Total runs:500
+Average run time:1.0818538665771484 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 56, 56, 32)
+Total runs:500
+Average run time:1.455291748046875 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 28, 28, 48)
+Total runs:500
+Average run time:0.584587574005127 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 28, 28, 48)
+Total runs:500
+Average run time:0.6649127006530762 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 28, 28, 48)
+Total runs:500
+Average run time:1.4897465705871582 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Command executed in 10 folders. Stopping script execution.
+root@u96v2-sbc-2022-2:~/All compiled blocks# ./search_folder.sh
+./search_folder.sh: line 5: folder_count: command not found
+Searching for profile_summary.csv in all directories...
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_3-e_1-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_5-e_1-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_7-e_1-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_3-e_3-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_3-e_4-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_3-e_6-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_5-e_3-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_5-e_4-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_5-e_6-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_7-e_3-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_7-e_4-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_7-e_6-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_3-e_3-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_3-e_4-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_3-e_6-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_5-e_3-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_5-e_4-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_5-e_6-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_7-e_3-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_7-e_4-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_7-e_6-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_3-e_3-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_3-e_4-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_3-e_6-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_5-e_3-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_5-e_4-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_5-e_6-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_7-e_3-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_7-e_4-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_7-e_6-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_3-e_3-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_3-e_4-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_3-e_6-s_1-act_relu-use_se_True/
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 28, 28, 48)
+Total runs:500
+Average run time:0.7613115310668945 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 28, 28, 48)
+Total runs:500
+Average run time:0.9332199096679688 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 28, 28, 48)
+Total runs:500
+Average run time:1.8824877738952637 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 28, 28, 48)
+Total runs:500
+Average run time:1.0644769668579102 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 28, 28, 48)
+Total runs:500
+Average run time:1.3099784851074219 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 28, 28, 48)
+Total runs:500
+Average run time:2.4535961151123047 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 28, 28, 48)
+Total runs:500
+Average run time:0.5802812576293945 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 28, 28, 48)
+Total runs:500
+Average run time:0.660130500793457 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 28, 28, 48)
+Total runs:500
+Average run time:1.3472833633422852 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 28, 28, 48)
+Total runs:500
+Average run time:0.5979270935058594 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Command executed in 10 folders. Stopping script execution.
+root@u96v2-sbc-2022-2:~/All compiled blocks# ./search_folder.sh
+./search_folder.sh: line 5: folder_count: command not found
+Searching for profile_summary.csv in all directories...
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_3-e_1-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_5-e_1-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_7-e_1-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_3-e_3-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_3-e_4-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_3-e_6-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_5-e_3-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_5-e_4-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_5-e_6-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_7-e_3-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_7-e_4-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_7-e_6-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_3-e_3-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_3-e_4-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_3-e_6-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_5-e_3-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_5-e_4-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_5-e_6-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_7-e_3-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_7-e_4-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_7-e_6-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_3-e_3-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_3-e_4-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_3-e_6-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_5-e_3-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_5-e_4-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_5-e_6-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_7-e_3-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_7-e_4-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_7-e_6-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_3-e_3-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_3-e_4-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_3-e_6-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_5-e_3-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_5-e_4-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_5-e_6-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_7-e_3-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_7-e_4-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_7-e_6-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_3-e_3-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_3-e_4-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_3-e_6-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_5-e_3-s_2-act_h_swish-use_se_False/
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 28, 28, 48)
+Total runs:500
+Average run time:0.7240428924560547 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 28, 28, 48)
+Total runs:500
+Average run time:1.3922247886657715 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 28, 28, 48)
+Total runs:500
+Average run time:0.6998519897460938 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 28, 28, 48)
+Total runs:500
+Average run time:0.8244791030883789 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 28, 28, 48)
+Total runs:500
+Average run time:1.5900020599365234 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 96)
+Total runs:500
+Average run time:0.6308727264404297 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 96)
+Total runs:500
+Average run time:0.7562255859375 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 96)
+Total runs:500
+Average run time:1.2731719017028809 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 96)
+Total runs:500
+Average run time:0.7378835678100586 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 96)
+Total runs:500
+Average run time:0.9112386703491211 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Command executed in 10 folders. Stopping script execution.
+root@u96v2-sbc-2022-2:~/All compiled blocks# ./search_folder.sh
+./search_folder.sh: line 5: folder_count: command not found
+Searching for profile_summary.csv in all directories...
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_3-e_1-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_5-e_1-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_7-e_1-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_3-e_3-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_3-e_4-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_3-e_6-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_5-e_3-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_5-e_4-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_5-e_6-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_7-e_3-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_7-e_4-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_7-e_6-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_3-e_3-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_3-e_4-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_3-e_6-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_5-e_3-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_5-e_4-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_5-e_6-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_7-e_3-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_7-e_4-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_7-e_6-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_3-e_3-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_3-e_4-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_3-e_6-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_5-e_3-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_5-e_4-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_5-e_6-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_7-e_3-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_7-e_4-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_7-e_6-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_3-e_3-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_3-e_4-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_3-e_6-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_5-e_3-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_5-e_4-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_5-e_6-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_7-e_3-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_7-e_4-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_7-e_6-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_3-e_3-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_3-e_4-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_3-e_6-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_5-e_3-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_5-e_4-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_5-e_6-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_7-e_3-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_7-e_4-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_7-e_6-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_136-k_3-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_136-k_3-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_136-k_3-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_136-k_5-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_136-k_5-e_4-s_1-act_h_swish-use_se_True/
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 96)
+Total runs:500
+Average run time:1.5042920112609863 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 96)
+Total runs:500
+Average run time:0.9132633209228516 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 96)
+Total runs:500
+Average run time:1.1223855018615723 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 96)
+Total runs:500
+Average run time:1.8438429832458496 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 96)
+Total runs:500
+Average run time:0.5519356727600098 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 96)
+Total runs:500
+Average run time:0.6489262580871582 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 96)
+Total runs:500
+Average run time:0.9060139656066895 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 96)
+Total runs:500
+Average run time:0.672553539276123 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 96)
+Total runs:500
+Average run time:0.7960033416748047 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 96)
+Total runs:500
+Average run time:1.1110363006591797 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Command executed in 10 folders. Stopping script execution.
+root@u96v2-sbc-2022-2:~/All compiled blocks# ./search_folder.sh
+./search_folder.sh: line 5: folder_count: command not found
+Searching for profile_summary.csv in all directories...
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_3-e_1-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_5-e_1-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_7-e_1-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_3-e_3-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_3-e_4-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_3-e_6-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_5-e_3-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_5-e_4-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_5-e_6-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_7-e_3-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_7-e_4-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_7-e_6-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_3-e_3-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_3-e_4-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_3-e_6-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_5-e_3-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_5-e_4-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_5-e_6-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_7-e_3-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_7-e_4-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_7-e_6-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_3-e_3-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_3-e_4-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_3-e_6-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_5-e_3-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_5-e_4-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_5-e_6-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_7-e_3-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_7-e_4-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_7-e_6-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_3-e_3-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_3-e_4-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_3-e_6-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_5-e_3-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_5-e_4-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_5-e_6-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_7-e_3-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_7-e_4-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_7-e_6-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_3-e_3-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_3-e_4-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_3-e_6-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_5-e_3-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_5-e_4-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_5-e_6-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_7-e_3-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_7-e_4-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_7-e_6-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_136-k_3-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_136-k_3-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_136-k_3-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_136-k_5-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_136-k_5-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_136-k_5-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_136-k_7-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_136-k_7-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_136-k_7-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_96-k_3-e_3-s_1-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_96-k_3-e_4-s_1-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_96-k_3-e_6-s_1-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_96-k_5-e_3-s_1-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_96-k_5-e_4-s_1-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_96-k_5-e_6-s_1-act_h_swish-use_se_False/
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 96)
+Total runs:500
+Average run time:0.8265891075134277 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 96)
+Total runs:500
+Average run time:1.0292367935180664 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 14, 14, 96)
+Total runs:500
+Average run time:1.444176197052002 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Search complete.
+root@u96v2-sbc-2022-2:~/All compiled blocks# ./search_folder.sh
+./search_folder.sh: line 5: folder_count: command not found
+Searching for profile_summary.csv in all directories...
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_3-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_5-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_136-k_7-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_3-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_5-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_3-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_4-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_136x14x14-out_192-k_7-e_6-s_2-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_3-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_5-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_192x7x7-out_192-k_7-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_3-e_1-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_5-e_1-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_24-k_7-e_1-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_3-e_3-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_3-e_4-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_3-e_6-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_5-e_3-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_5-e_4-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_5-e_6-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_7-e_3-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_7-e_4-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_24x112x112-out_32-k_7-e_6-s_2-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_3-e_3-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_3-e_4-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_3-e_6-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_5-e_3-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_5-e_4-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_5-e_6-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_7-e_3-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_7-e_4-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_32-k_7-e_6-s_1-act_relu-use_se_False/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_3-e_3-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_3-e_4-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_3-e_6-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_5-e_3-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_5-e_4-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_5-e_6-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_7-e_3-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_7-e_4-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_32x56x56-out_48-k_7-e_6-s_2-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_3-e_3-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_3-e_4-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_3-e_6-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_5-e_3-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_5-e_4-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_5-e_6-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_7-e_3-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_7-e_4-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_48-k_7-e_6-s_1-act_relu-use_se_True/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_3-e_3-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_3-e_4-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_3-e_6-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_5-e_3-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_5-e_4-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_5-e_6-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_7-e_3-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_7-e_4-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_48x28x28-out_96-k_7-e_6-s_2-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_136-k_3-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_136-k_3-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_136-k_3-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_136-k_5-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_136-k_5-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_136-k_5-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_136-k_7-e_3-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_136-k_7-e_4-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_136-k_7-e_6-s_1-act_h_swish-use_se_True/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_96-k_3-e_3-s_1-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_96-k_3-e_4-s_1-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_96-k_3-e_6-s_1-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_96-k_5-e_3-s_1-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_96-k_5-e_4-s_1-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_96-k_5-e_6-s_1-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_96-k_7-e_3-s_1-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_96-k_7-e_4-s_1-act_h_swish-use_se_False/
+Profile summary found in directory: ResidualBlock-in_96x14x14-out_96-k_7-e_6-s_1-act_h_swish-use_se_False/
+Search complete.
+root@u96v2-sbc-2022-2:~/All compiled blocks#
