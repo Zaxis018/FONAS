@@ -1,0 +1,39 @@
+root@u96v2-sbc-2022-2:~# xdputil query
+{
+    "DPU IP Spec":{
+        "DPU Core Count":1,
+        "IP version":"v4.1.0",
+        "generation timestamp":"2023-02-21 21-30-00",
+        "git commit id":"7d32c41",
+        "git commit time":2023022121,
+        "regmap":"1to1 version"
+    },
+    "VAI Version":{
+        "libvart-runner.so":"Xilinx vart-runner Version: 3.0.0-c5d2bd43d951c174185d728b8e5bcda3869e0b39  2023-04-10-20:06:16 ",
+        "libvitis_ai_library-dpu_task.so":"Xilinx vitis_ai_library dpu_task Version: 3.0.0-c5d2bd43d951c174185d728b8e5bcda3869e0b39  2023-01-13 06:58:30 [UTC] ",
+        "libxir.so":"Xilinx xir Version: xir-c5d2bd43d951c174185d728b8e5bcda3869e0b39 2023-04-03-14:21:20",
+        "target_factory":"target-factory.3.0.0 c5d2bd43d951c174185d728b8e5bcda3869e0b39"
+    },
+    "kernels":[
+        {
+            "DPU Arch":"DPUCZDX8G_ISA1_B2304_0101000016010405",
+            "DPU Frequency (MHz)":200,
+            "IP Type":"DPU",
+            "Load Parallel":2,
+            "Load augmentation":"enable",
+            "Load minus mean":"disable",
+            "Save Parallel":2,
+            "XRT Frequency (MHz)":200,
+            "cu_addr":"0xb0000000",
+            "cu_handle":"0xaaaae5098790",
+            "cu_idx":0,
+            "cu_mask":1,
+            "cu_name":"DPUCZDX8G:DPUCZDX8G_1",
+            "device_id":0,
+            "fingerprint":"0x101000016010405",
+            "name":"DPU Core 0"
+        }
+    ]
+}
+root@u96v2-sbc-2022-2:~# 
+
