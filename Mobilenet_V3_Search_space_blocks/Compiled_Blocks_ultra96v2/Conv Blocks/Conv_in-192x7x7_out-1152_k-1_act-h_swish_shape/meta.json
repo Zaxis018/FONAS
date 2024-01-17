@@ -1,0 +1,8 @@
+{
+    "lib": "libvart-dpu-runner.so",
+    "filename": "Conv_in-7x7x192_out-1152_k-1_acth_swish_shape[192x7x7].xmodel",
+    "kernel": [
+        "subgraph_ConvLayer__ConvLayer_Conv2d_conv__ret_3"
+    ],
+    "target": "DPUCZDX8G_ISA1_B2304_0101000016010405"
+}

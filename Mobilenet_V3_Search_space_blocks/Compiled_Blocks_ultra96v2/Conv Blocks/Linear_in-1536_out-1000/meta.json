@@ -1,0 +1,8 @@
+{
+    "lib": "libvart-dpu-runner.so",
+    "filename": "Linear_in-1536_out-1000_shape[1536]_output100x2x2.xmodel",
+    "kernel": [
+        "subgraph_LinearLayer__LinearLayer_Linear_linear__ret(TransferMatMulToConv2d)"
+    ],
+    "target": "DPUCZDX8G_ISA1_B2304_0101000016010405"
+}
