@@ -1,0 +1,72 @@
+root@u96v2-sbc-2022-2:~/Conv Blocks# ls
+Conv_in-1152x1x1_out-1536_k-1_act-h_swish       Linear_in-1536_out-1000
+Conv_in-192x7x7_out-1152_k-1_act-h_swish_shape  latency_test.py
+Conv_in-3x224x224_out-24_k-3_act-relu           search_folder.sh
+root@u96v2-sbc-2022-2:~/Conv Blocks# sudo chmod +x search_folder.sh
+root@u96v2-sbc-2022-2:~/Conv Blocks# ./search_folder.sh
+./search_folder.sh: line 5: folder_count: command not found
+Searching for profile_summary.csv in all directories...
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 1, 1, 1152)
+Total runs:500
+Average run time:1.279306411743164 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 7, 7, 192)
+Total runs:500
+Average run time:0.7489538192749023 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 224, 224, 3)
+Total runs:500
+Average run time:1.110215663909912 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:SubGraph index duplication: [subgraph_ConvLayer__ConvLayer_Conv2d_conv__ret_3|16558080]
+INFO:root:[vart_trace.csv]: Events number: 1000
+Searching for .xmodel file ...
+Found .xmodel file:
+WARNING:root:No such file or directory: '/sys/kernel/debug/tracing/trace_clock'
+WARNING:root:CPU function tracing feature is disabled
+INFO:root:VART will run xmodel in [NORMAL] mode
+INFO:root:vaitrace compile python code: ../latency_test.py
+INFO:root:vaitrace exec poython code: ../latency_test.py
+DPU runner created
+input_ndim[0]:(1, 1536)
+Total runs:500
+Average run time:0.9593567848205566 ms
+APM Stop Collecting
+INFO:root:Generating VTF
+INFO:root:Processing xmodel information
+INFO:root:SubGraph index duplication: [subgraph_LinearLayer__LinearLayer_Linear_linear__ret(TransferMatMulToConv2d)|3073000]
+INFO:root:[vart_trace.csv]: Events number: 1000
+Search complete.
+root@u96v2-sbc-2022-2:~/Conv Blocks#
