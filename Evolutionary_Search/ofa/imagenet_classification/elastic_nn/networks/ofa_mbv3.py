@@ -46,7 +46,7 @@ class OFAMobileNetV3(MobileNetV3):
 
         final_expand_width = make_divisible(
             base_stage_width[-2] * self.width_mult,
-            MyNetwork.CHANNEL_DIVISIBLE,  # make channel number divisible by 9
+            MyNetwork.CHANNEL_DIVISIBLE,  # make channel number divisible by 8
         )
         last_channel = make_divisible(
             base_stage_width[-1] * self.width_mult, MyNetwork.CHANNEL_DIVISIBLE
