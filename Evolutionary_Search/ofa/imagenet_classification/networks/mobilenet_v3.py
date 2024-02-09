@@ -27,7 +27,7 @@ class MobileNetV3(MyNetwork):
         self.first_conv = first_conv
         self.blocks = nn.ModuleList(blocks)
         self.final_expand_layer = final_expand_layer
-        self.global_avg_pool = MyGlobalAvgPool2d(keep_dim=True)
+        self.global_avg_pool = nn.AdaptiveAvgPool2d((1,1))
         self.feature_mix_layer = feature_mix_layer
         self.classifier = classifier
 
