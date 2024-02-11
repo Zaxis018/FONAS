@@ -7,7 +7,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from collections import OrderedDict
 from .my_modules import MyNetwork
-
+import torchvision
 
 
 __all__ = [
@@ -42,7 +42,7 @@ def make_divisible(v, divisor, min_val=None):
 
 def build_activation(act_func, inplace=True):
     if act_func == "relu":
-        return nn.ReLU(inplace=inplace)
+        return nn.ReLU()
     elif act_func == "relu6":
         return nn.ReLU6(inplace=inplace)
     elif act_func == "tanh":
@@ -50,9 +50,9 @@ def build_activation(act_func, inplace=True):
     elif act_func == "sigmoid":
         return nn.Sigmoid()
     elif act_func == "h_swish":
-        return nn.Hardswish(inplace=True)
+        return nn.Hardswish()
     elif act_func == "h_sigmoid":
-        return nn.Hardsigmoid(inplace=True)
+        return nn.Hardsigmoid()
     elif act_func is None or act_func == "none":
         return None
     else:
@@ -90,10 +90,6 @@ class MyGlobalAvgPool2d(nn.Module):
         return "MyGlobalAvgPool2d(keep_dim=%s)" % self.keep_dim
 
 
-
-
-
-
 class SEModule(nn.Module):
     REDUCTION = 4
 
@@ -106,7 +102,7 @@ class SEModule(nn.Module):
         num_mid = make_divisible(
             self.channel // self.reduction, divisor=MyNetwork.CHANNEL_DIVISIBLE
         )
-
+        
         self.fc = nn.Sequential(
             OrderedDict(
                 [
@@ -119,9 +115,7 @@ class SEModule(nn.Module):
         )
 
     def forward(self, x):
-        y = x.mean(3, keepdim=True).mean(2, keepdim=True)
-        y = self.fc(y)
-        return x * y
+        return self.fc(x)
 
     def __repr__(self):
         return "SE(channel=%d, reduction=%d)" % (self.channel, self.reduction)
