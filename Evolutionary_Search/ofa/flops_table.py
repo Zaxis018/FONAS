@@ -6,6 +6,8 @@ import numpy as np
 from ofa.utils.layers import *
 
 
+# Only the arthemetic intenstiy is utilized, for latency a seperate latency table is constructed.
+
 #arth Int = arthemetic intensity
 __all__ = ["ArthIntTable"]
 

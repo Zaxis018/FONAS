@@ -11,7 +11,7 @@ class ArchManager:
 
         # Configurations for NAS and MBconv block
         self.num_blocks = 20
-        self.num_stages = 5        # Multiple blocks are repeated in one stage 
+        self.num_stages = 5  # Multiple blocks are repeated in one stage
         self.kernel_sizes = [3, 5, 7]
         self.expand_ratios = [3, 4, 6]
         self.depths = [2, 3, 4]
@@ -42,20 +42,19 @@ class ArchManager:
         }
 
         return sample
- 
-# Randomly resample a specific block in the architecture, kernel and expand ratio
+
+    # Randomly resample a specific block in the architecture, kernel and expand ratio
     def random_resample(self, sample, i):
         assert i >= 0 and i < self.num_blocks
         sample["ks"][i] = random.choice(self.kernel_sizes)
         sample["e"][i] = random.choice(self.expand_ratios)
 
-
- # Randomly resample depth of a specific stage in the architecture
+    # Randomly resample depth of a specific stage in the architecture
     def random_resample_depth(self, sample, i):
         assert i >= 0 and i < self.num_stages
         sample["d"][i] = random.choice(self.depths)
 
-# Randomly resample res
+    # Randomly resample res
     def random_resample_resolution(self, sample):
         sample["r"][0] = random.choice(self.resolutions)
 
@@ -63,12 +62,9 @@ class ArchManager:
 class EvolutionFinder:
 
     # do define the type of constraint
-    valid_constraint_range = {
-        "arthemetic_intensity": [10, 25],
-    }
+    valid_constraint_range = {"arthemetic_intensity": [10, 25], "latency": [10, 45]}
 
-
-# need to add MAC and total size of model
+    # need to add MAC and total size of model
     def __init__(
         self,
         constraint_type,  # for now is single constraint
@@ -89,21 +85,22 @@ class EvolutionFinder:
             and efficiency_constraint >= self.valid_constraint_range[constraint_type][0]
         ):
             self.invite_reset_constraint()
-            
+
         self.efficiency_predictor = efficiency_predictor
         self.accuracy_predictor = accuracy_predictor
         self.arch_manager = ArchManager()
         self.num_blocks = self.arch_manager.num_blocks
         self.num_stages = self.arch_manager.num_stages
 
-        self.mutate_prob = kwargs.get("mutate_prob", 0.1)  # prob that any mbconvblock to get mutate
+        self.mutate_prob = kwargs.get(
+            "mutate_prob", 0.1
+        )  # prob that any mbconvblock to get mutate
         self.population_size = kwargs.get("population_size", 100)
         self.max_time_budget = kwargs.get("max_time_budget", 500)
         self.parent_ratio = kwargs.get("parent_ratio", 0.25)
         self.mutation_ratio = kwargs.get("mutation_ratio", 0.5)
 
-
-# Reseting the constraint if invalid
+    # Reseting the constraint if invalid
     def invite_reset_constraint_type(self):
         print(
             "Invalid constraint type! Please input one of:",
@@ -145,12 +142,12 @@ class EvolutionFinder:
         self.efficiency_constraint = new_cons
 
     def set_efficiency_constraint(self, new_constraint):
-        self.efficiency_constraint = 1/new_constraint
-    
+        if self.constraint_type == "arthemetic_intensity":
+            self.efficiency_constraint = 1 / new_constraint
+        elif self.constraint_type == "latency":
+            self.efficiency_constraint = new_constraint
 
-
-
-# Sample an architecutre parameter and then check for constraint 
+    # Sample an architecutre parameter and then check for constraint
     def random_sample(self):
         constraint = self.efficiency_constraint
         while True:
@@ -158,7 +155,6 @@ class EvolutionFinder:
             efficiency = self.efficiency_predictor.predict_efficiency(sample)
             if efficiency <= constraint:
                 return sample, efficiency
-
 
     def mutate_sample(self, sample):
         constraint = self.efficiency_constraint
@@ -170,7 +166,9 @@ class EvolutionFinder:
 
             for i in range(self.num_blocks):
                 if random.random() < self.mutate_prob:
-                    self.arch_manager.random_resample(new_sample, i) #kernel and expand_ratio
+                    self.arch_manager.random_resample(
+                        new_sample, i
+                    )  # kernel and expand_ratio
 
             for i in range(self.num_stages):
                 if random.random() < self.mutate_prob:
@@ -200,34 +198,38 @@ class EvolutionFinder:
         """Run a single roll-out of regularized evolution to a fixed time budget."""
         max_time_budget = self.max_time_budget
         population_size = self.population_size
-        mutation_numbers = int(round(self.mutation_ratio * population_size))  # how many to mutate from population
-        parents_size = int(round(self.parent_ratio * population_size))   #how many parents from the population for next generation
-        
-        if self.constraint_type == 'arthemetic_intensity':
+        mutation_numbers = int(
+            round(self.mutation_ratio * population_size)
+        )  # how many to mutate from population
+        parents_size = int(
+            round(self.parent_ratio * population_size)
+        )  # how many parents from the population for next generation
+
+        if self.constraint_type == "arthemetic_intensity":
             constraint = 1 / self.efficiency_constraint
         else:
             constraint = self.efficiency_constraint
 
         best_valids = [-100]
         population = []  # (validation, sample, latency) tuples
-        child_pool = []    # store samples
+        child_pool = []  # store samples
         efficiency_pool = []  # store efficiency
-        best_info = None # (validation, sample, latency) of best accuracy sample
-        
-        
+        best_info = None  # (validation, sample, latency) of best accuracy sample
+
         print("Generate random population...")
         for _ in range(population_size):
-            sample, efficiency = self.random_sample()    # all pass efficiency creteria
+            sample, efficiency = self.random_sample()  # all pass efficiency creteria
             child_pool.append(sample)
             efficiency_pool.append(efficiency)
 
-        accs = self.accuracy_predictor.predict_accuracy(child_pool)   #entire set of sample predict
+        accs = self.accuracy_predictor.predict_accuracy(
+            child_pool
+        )  # entire set of sample predict
         for i in range(population_size):
             population.append((accs[i].item(), child_pool[i], efficiency_pool[i]))
 
+        # Seeding completed
 
-# Seeding completed
-  
         print("Start Evolution...")
         # After the population is seeded, proceed with evolving the population.
         for iter in tqdm(
@@ -242,23 +244,23 @@ class EvolutionFinder:
 
             if acc > best_valids[-1]:
                 best_valids.append(acc)
-                best_info = (parents[0][0], parents[0][1], 1/parents[0][1])
+                best_info = (parents[0][0], parents[0][1], parents[0][2])
             else:
                 best_valids.append(best_valids[-1])
 
-#Empety child pool to store new generation
+            # Empety child pool to store new generation
             population = parents
             child_pool = []
             efficiency_pool = []
 
-            for i in range(mutation_numbers): #50
+            for i in range(mutation_numbers):  # 50
                 par_sample = population[np.random.randint(parents_size)][1]
                 # Mutate
                 new_sample, efficiency = self.mutate_sample(par_sample)
                 child_pool.append(new_sample)
                 efficiency_pool.append(efficiency)
 
-            for i in range(population_size - mutation_numbers): #50
+            for i in range(population_size - mutation_numbers):  # 50
                 par_sample1 = population[np.random.randint(parents_size)][1]
                 par_sample2 = population[np.random.randint(parents_size)][1]
                 # Crossover
