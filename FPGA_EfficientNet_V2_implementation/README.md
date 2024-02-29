@@ -4,7 +4,7 @@
 
 ## Replacing SiLU with HardSwish
 [Replacing with HardSwish](https://github.com/amitpant7/Replacing-Silu-in-efficientnetV2-with-Hard-Swish)  
-    Replacing all the SiLU activation functions from efficientnetv2 with HardSwish as they are computationally cheaper, it will make FPGA implementation faster
+    Replacing all the SiLU activation functions from efficientnetv2 with HardSwish as they are computationally cheaper, it will make FPGA implementation faster and better.
 
 ## Pruning the EfficientNetV2:
  - [Unstructured Pruning](https://github.com/amitpant7/Pruning_efficienet_v2.git)
