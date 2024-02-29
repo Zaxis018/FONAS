@@ -4,7 +4,7 @@ This repository contains the final compiled latency dataset for all Mobilenetv3 
 ### Board info:
 FPGA board: Ultra96v2
 Quantization precision: Int8
-Further details at board_info.txt
+Further details is at board_info.txt
 
 
 The full dataset along with trace summary can be found at :
