@@ -1,0 +1,8 @@
+{
+    "lib": "libvart-dpu-runner.so",
+    "filename": "model_search_15.xmodel",
+    "kernel": [
+        "subgraph_MobileNetV3__MobileNetV3_AdaptiveAvgPool2d_global_avg_pool__input_407_fix"
+    ],
+    "target": "DPUCZDX8G_ISA1_B2304_0101000016010405"
+}
