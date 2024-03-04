@@ -15,3 +15,16 @@ sudo -E PATH=$PATH:/opt/vitis_ai/conda/envs/vitis-ai-pytorch/bin /opt/vitis_ai/c
 hardware aware quantization
 
 sudo /opt/vitis_ai/conda/envs/vitis-ai-pytorch/bin/python fpganet-qat.py --quant_mode calib --target DPUCAHX8L_ISA0_SP --subset_len 200
+
+
+
+
+
+----fast fine tune 
+
+
+sudo /opt/vitis_ai/conda/envs/vitis-ai-pytorch/bin/python fpganet-qat.py --device "cpu" --quant_mode calib --subset_len 6000 --fast finetune
+
+
+
+
