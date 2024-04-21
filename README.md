@@ -20,8 +20,6 @@ This project focuses on searching for efficient deep neural architectures (FPGAN
 - **Improved Performance**: The searched architectures (FPGANets) demonstrate superior performance in terms of the trade-off between latency and accuracy compared to existing architectures.
 - ![res](https://github.com/FPGA-Vision/FONAS/assets/50907565/e37a749d-6905-4a5b-b943-37ee1592b7f8)
 
-## Results
-
 ## Future Directions
 - **Integration Challenges**: Seamless implementation of optimized architectures on FPGA platforms.
 - **Validation Process**: Verification of the effectiveness of optimized architectures on Ultra96-v2 FPGA boards.
